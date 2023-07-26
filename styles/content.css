@@ -1,28 +1,31 @@
 .pfp {
-  height: 250px; 
+  height: 15.625em; 
   background-color: #f2e8d9;
-  padding: 7px; 
-  border: solid 5px #2f7a7d;
+  padding: 0.4375em; 
+  border: solid 0.3125em #2f7a7d;
+  margin-bottom: 0;
 }
 
 .image {
-  height: 250px; 
+  height: 15.625em; 
   background-color: #f2e8d9;
-  padding: 4px; 
-  border: solid 2px #2f7a7d;
+  padding: 0.25em; 
+  border: solid .125em #2f7a7d;
+  margin-bottom: 0;
 }
 
 .text {
   font-family: "Bitter";
-  margin: 15px 25px 15px 25px; 
+  margin: 0.9375em 25px 0.9375em 25px; 
 }
 
 h1 {
   font-family: "Oswald";
   font-weight: 400;
   color: #160f29;   
-  font-size: 30px;
-  margin: 40px; 
+  font-size: 1.875rem;
+  margin: 2.5em;
+  margin-top: 1.5em; 
 }
 
 .fandiv {
@@ -31,14 +34,14 @@ h1 {
   justify-content: start;
   width: 100%;
   flex-direction: column;
-  margin: 0px; 
+  margin: 0; 
   position: relative;
-  max-width: 1100px;
+  max-width: 68.75em;
 }
 
 .fandom-tag {
-  margin-bottom: 20px;
-  margin-top: 20px; 
+  margin-bottom: 1em;
+  margin-top: 1em; 
   align-self: start;
   margin-left: 9%
 }
@@ -47,35 +50,35 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-self: center;
-  border: solid 2px #160f29;
-  margin: 10px; 
+  border: solid 0.125em #160f29;
+  margin: .625em; 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 47em) {
   .fan-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 47.0001em) and (max-width: 72.9999em) {
   .fan-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 73em){
   .fan-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
 .fan-grid div {
-  border: solid 1px #160f29;
+  border: solid 0.0625em #160f29;
   font-family: "Bitter";
-  padding: 10px; 
+  padding: .625em; 
 }
 
 .quote {
-  margin-bottom: 27px; 
+  margin-bottom: 1.5em; 
 }
 
