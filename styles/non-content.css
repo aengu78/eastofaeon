@@ -3,17 +3,17 @@ body {
   display: flex; 
   flex-direction: column;
   align-items: center;
-  margin-top: 80px; 
+  margin-top: 5em; 
   position: relative; 
 }
 
 .topbar {
   background-color: #246a73;
   position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px; 
-  height: 55px; 
+  top: 0;
+  right: 0;
+  left: 0; 
+  height: 3.4375em; 
   display: flex; 
   align-items: center;
   justify-content: center;
@@ -23,11 +23,11 @@ body {
 .sidebar {
   background-color: #368f8b;
   position: fixed;
-  top: 55px;
-  left: 0px;
-  bottom: 0px;
-  width: 300px; 
-  left: -300px; 
+  top: 3.4375em;
+  left: 0;
+  bottom: 0;
+  width: 18.75em; 
+  left: -18.75em; 
   z-index: 70; 
 }
 
@@ -37,16 +37,16 @@ body {
 }
 
 #sb.active {
-  left: 0px; 
+  left: 0; 
 }
 
 .burg {
-  width: 30px; 
+  width: 1.875em; 
 }
 
 .burg-div {
-  height: 55px;
-  width: 80px; 
+  height: 3.4375em;
+  width: 5em; 
   background-color: none;
   display: flex;
   align-items: center;
@@ -68,20 +68,29 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 10px; 
+  margin-top: 0.625em; 
 }
 
 
 .tabs div {
-  padding: 20px; 
-  padding-left: 30px; 
+  padding: .875em; 
+  padding-left: 1.3em; 
   font-family: "Roboto Slab";
   font-size: 23px; 
-  color: #ffffff;
+  color: white;
   display: flex; 
   align-items: center;
   width: 250px;
   transition: background-color .2s, height .2s, width .2s;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: white;
+}
+
+.tabs div a:hover{
+  cursor: pointer; 
 }
 
 .tabs div:hover {
@@ -91,7 +100,6 @@ body {
 
 .other-tabs:hover {
   background-color: #2f7a7d;
-  cursor: pointer;
 }
 
 .current-tab {
@@ -99,6 +107,7 @@ body {
   display: flex; 
   align-items: center;
   transition: box-shadow 5s;
+  text-decoration: none;
 }
 
 .current-tab:hover {
@@ -139,3 +148,4 @@ body {
   left: 0; 
   opacity: 50%;
 }
+
