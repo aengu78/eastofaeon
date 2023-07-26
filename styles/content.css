@@ -1,0 +1,81 @@
+.pfp {
+  height: 250px; 
+  background-color: #f2e8d9;
+  padding: 7px; 
+  border: solid 5px #2f7a7d;
+}
+
+.image {
+  height: 250px; 
+  background-color: #f2e8d9;
+  padding: 4px; 
+  border: solid 2px #2f7a7d;
+}
+
+.text {
+  font-family: "Bitter";
+  margin: 0px 25px 0px 25px; 
+}
+
+h1 {
+  font-family: "Oswald";
+  font-weight: 400;
+  color: #160f29;   
+  font-size: 30px;
+  margin: 40px; 
+}
+
+.fandiv {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  flex-direction: column;
+  margin: 0px; 
+  position: relative;
+  max-width: 1100px;
+}
+
+.fandom-tag {
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  align-self: start;
+  margin-left: 9%
+}
+
+.fan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  border: solid 2px #160f29;
+  margin: 10px; 
+}
+
+@media (max-width: 750px) {
+  .fan-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .fan-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px){
+  .fan-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.fan-grid div {
+  border: solid 1px #160f29;
+  font-family: "Bitter";
+  padding: 10px; 
+}
+
+.quote {
+  margin-bottom: 27px; 
+}
+
