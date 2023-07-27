@@ -25,9 +25,45 @@
 
     
     <style>
-      
-    </style>
+      .comm-style-tag {
+        margin-top: 1.4rem;
+        margin-bottom: 1rem;
+      }
 
+
+      .comm-img-position {
+        display: grid; 
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        max-width: 50em;
+        justify-self: center;
+      }
+
+      @media (min-width: 50em){
+        .comm-img-position {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+
+      .comm-image-label {
+        margin-bottom: 1rem;
+      }
+
+
+      .comm-img-position .pfp {
+        margin: 1em; 
+        justify-self: center;
+        width: 17em;
+        height: 17em;
+      }
+
+      .style-description {
+        width: 100%;
+      }
+    </style>
 
   </head>
 
@@ -44,6 +80,58 @@
         East of Aeon
       </div>
     </header>
+
+    <h1 class = page-label>Commissions</h1>
+
+    <p class = "text"> Looking to commission me? Here's all the info you'll need.</p>
+
+    <hr class = "break">
+    
+    <div class = "style-description">
+      <h1 class = "comm-style-tag">Style 1: </h1>
+
+      <p class = "text">Style 1 has clean lines, colors, and shading. Due to this, the only commissions I will accept for it are headshots and simple-design characters. </p>
+
+      <h1 class = "comm-image-label">Style 1 Prices and Examples:</h1>
+
+      <p class = "text" class = "desc-price">Full Render: $15</p>
+    </div>
+
+    <div class = "comm-img-position">
+      <img class = pfp src = "site-icons/ghost.png">
+      <img class = pfp src = "site-icons/killskiss.png">
+    </div>
+
+    <div class = "style-description">
+      <p class = "text" class = "desc-price">Flat Colors: $8</p>
+    </div>
+
+    <div class = "comm-img-position">
+      <img class = pfp src = "site-icons/ghostflats.png">
+      <img class = pfp src = "site-icons/killskissflats.png">
+    </div>
+
+    <div class = "style-description">
+      <p class = "text" class = "desc-price">Lines: $6</p>
+    </div>
+
+    <div class = "comm-img-position">
+      <img class = pfp src = "site-icons/ghostlines.png">
+      <img class = pfp src = "site-icons/killskisslines.png">
+    </div>
+
+
+    <div class = "style-description">
+      <h1 class = "comm-style-tag">Style 2: </h1>
+
+      <p class = "text">Style 1 has messier lines and colors, but the shading s more detailed.. Due to this, the only commissions I will accept for it are headshots and simple-design characters. </p>
+
+      <h1 class = "comm-image-label">Style 1 Prices and Examples:</h1>
+
+      <p class = "text" class = "desc-price">Full Render: $15</p>
+    </div>
+
+    
 
     <nav class = "sidebar" id = "sb">
       <div class = "tabs">
