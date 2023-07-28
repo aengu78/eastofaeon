@@ -25,44 +25,7 @@
 
     
     <style>
-      .comm-style-tag {
-        margin-top: 1.4rem;
-        margin-bottom: 1rem;
-      }
 
-
-      .comm-img-position {
-        display: grid; 
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
-        width: 100%; 
-        max-width: 50em;
-        justify-self: center;
-      }
-
-      @media (min-width: 50em){
-        .comm-img-position {
-          grid-template-columns: 1fr 1fr;
-        }
-      }
-
-
-      .comm-image-label {
-        margin-bottom: 1rem;
-      }
-
-
-      .comm-img-position .pfp {
-        margin: 1em; 
-        justify-self: center;
-        width: 17em;
-        height: 17em;
-      }
-
-      .style-description {
-        width: 100%;
-      }
     </style>
 
   </head>
@@ -83,54 +46,100 @@
 
     <h1 class = page-label>Commissions</h1>
 
-    <p class = "text"> Looking to commission me? Here's all the info you'll need.</p>
+    <p class = "text"> Looking to commission me? Here's all the info you'll need :)</p>
 
     <hr class = "break">
     
     <div class = "style-description">
       <h1 class = "comm-style-tag">Style 1: </h1>
 
-      <p class = "text">Style 1 has clean lines, colors, and shading. Due to this, the only commissions I will accept for it are headshots and simple-design characters. </p>
+      <li class = "text">Style 1 has clean lines, colors, and shading.</li>
 
-      <h1 class = "comm-image-label">Style 1 Prices and Examples:</h1>
+      <h1 class = "comm-image-label">Style 1 Base Prices and Examples:</h1>
 
-      <p class = "text" class = "desc-price">Full Render: $15</p>
+      <li class = "text" class = "desc-price">Full Render Bust Shot / Simple Design Character: $15</li>
     </div>
 
     <div class = "comm-img-position">
-      <img class = pfp src = "site-icons/ghost.png">
-      <img class = pfp src = "site-icons/killskiss.png">
+
+      <div class = "picture-holder"><img class = pfp src = "site-icons/ghost.png"></div>
+      <div class = "picture-holder"><img class = pfp src = "site-icons/killskiss.png"></div>
     </div>
 
     <div class = "style-description">
-      <p class = "text" class = "desc-price">Flat Colors: $8</p>
+      <li class = "text" class = "desc-price">Flat Color Bust Shot / Simple Design Character: $8</li>
     </div>
 
     <div class = "comm-img-position">
-      <img class = pfp src = "site-icons/ghostflats.png">
-      <img class = pfp src = "site-icons/killskissflats.png">
+      <div class = "picture-holder"><img class = pfp src = "site-icons/ghostflats.png"></div>
+      <div class = "picture-holder"><img class = pfp src = "site-icons/killskissflats.png"></div>
     </div>
 
     <div class = "style-description">
-      <p class = "text" class = "desc-price">Lines: $6</p>
+      <li class = "text" class = "desc-price">Lined Bust Shot / Simple Design Character: $6</li>
     </div>
 
     <div class = "comm-img-position">
-      <img class = pfp src = "site-icons/ghostlines.png">
-      <img class = pfp src = "site-icons/killskisslines.png">
+      <div class = "picture-holder"><img class = pfp src = "site-icons/ghostlines.png"></div>
+      <div class = "picture-holder"><img class = pfp src = "site-icons/killskisslines.png"></div>
     </div>
-
 
     <div class = "style-description">
       <h1 class = "comm-style-tag">Style 2: </h1>
 
-      <p class = "text">Style 1 has messier lines and colors, but the shading s more detailed.. Due to this, the only commissions I will accept for it are headshots and simple-design characters. </p>
+      <li class = "text">Style 2 has messier lines and colors, but the rendering is more complex.</li>
 
-      <h1 class = "comm-image-label">Style 1 Prices and Examples:</h1>
+      <h1 class = "comm-image-label">Style 2 Base Prices and Examples:</h1>
 
-      <p class = "text" class = "desc-price">Full Render: $15</p>
+      <li class = "text" class = "desc-price">Full Render Bust Shot / Simple Design Character: $14</li>
     </div>
 
+    <div class = "comm-img-position">
+
+      <div class = "picture-holder"><img class = pfp src = "site-icons/weddingdaysitedrender.png"></div>
+      <div class = "picture-holder"><img class = pfp src = "site-icons/beachballrender.png"></div>
+    </div>
+
+    <div class = "style-description">
+      <li class = "text" class = "desc-price">Flat Color Bust Shot / Simple Design Character: $7</li>
+    </div>
+
+    <div class = "comm-img-position">
+      <div class = "picture-holder"><img class = pfp src = "site-icons/weddingdaysitedflats.png"></div>
+      <div class = "picture-holder"><img class = pfp src = "site-icons/beachballflats.png"></div>
+    </div>
+
+    <div class = "style-description">
+      <li class = "text" class = "desc-price">Lined Bust Shot / Simple Design Character: $5</li>
+    </div>
+
+    <div class = "comm-img-position">
+      <div class = "picture-holder"><img class = pfp src = "site-icons/weddingdaysitedlines.png"></div>
+      <div class = "picture-holder"><img class = pfp src = "site-icons/beachballlines.png"></div>
+    </div>
+
+
+    <div class = "style-description">
+      <h1 class = "comm-style-tag">Notes: </h1>
+
+      <li class = "text">All prices are in USD.</li>
+      <li class = "text">For waist-up shots, multiply the base price provided by 2. For full-body shots, multiply the base price provided by 3.</li>
+      <li class = "text">For multiple characters, each character other than the first is 35% off.</li>
+      <li class = "text">Simple props, such as a juice box, have a base price of $1 each. Complex props, such as a bouquet, and large simple props, such as a window have a base price of $4 each. Large complex props, such as a vending machine, have a base price of $7 each. </li>
+      <li class = "text">All rendered shots include a free simple background such as scratches or a repeating pattern. This can also include simple effects such as flower petals or feathers around the character(s). If the shot is not fully rendered, then such effects have a base price of $1.</li>
+      <li class = "text">I will draw: humanoids, anthros, simple characters, slight scene elements, and slight gore.</li>
+      <li class = "text">I will not draw: complex scenes, sexual or suggestive content, extreme gore, mecha, pedophilia, or hateful or discriminatory content. </li>
+      <li class = "text">All payments will be done through <a href = "https://ko-fi.com/eastofaeon">Ko-Fi</a>.</li>
+      <li class = "text">For lined commissions, payment is expected upfront. For flat color and fully rendered commissions, half of the commission price is expected upfront, while the other half is expected upon approval of the sketch.</li>
+      <li class = "text">Progress shots will be sent throughout the art process for approval and editing.</li>
+      <li class = "text">Please allow up to 2 weeks for completion of sketches or lines, 3 weeks for completion of flat colors, and 6 weeks for completion of rendered pieces.</li>
+      <li class = "text">Upon completion of the work, it will be sent to you online through your method of choice (Instagram, Discord, Email, etc.)</li>
+      <li class = "text">All commissions will be watermarked with a tag saying they are a commission from me.</li>
+      <li class = "text">To submit a commission or any other questions, feel free to contact me on any of my <a href = "./socials.html">socials</a>!</li>
+
+    </div>
+
+    <hr class = "break">
     
 
     <nav class = "sidebar" id = "sb">

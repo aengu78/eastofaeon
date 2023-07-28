@@ -21,6 +21,7 @@ div {
 }
 
 .text {
+  line-height: 150%;
   font-family: "Bitter";
   margin: 0.9375em 25px 0.9375em 25px; 
 }
@@ -163,5 +164,107 @@ h2 {
   background-color: #160f29; 
   border: none; 
   width: 50%;
+  margin: 1em;
 }
+
+.break-trouble {
+  height: 1.5px; 
+  color: #160f29;  
+  background-color: #160f29; 
+  border: none; 
+  width: 50%;
+  margin: 1em;
+}
+
+/*Socials*/
+
+.socials-grid {
+  display: grid; 
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  max-width: 25em;
+  justify-self: center;
+  border: solid 0.125em #160f29;
+  margin: 1em;
+}
+
+.social-div {
+  padding: .5em;;
+  border: solid 1px #160f29;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.social-text-div {
+  border: solid 1px #160f29;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 98%
+}
+
+.icon-pic {
+  width: 100%;
+}
+
+
+
+
+/*Commissions*/
+
+.comm-style-tag {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+
+.comm-img-position {
+  display: grid; 
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  max-width: 25em;
+  justify-self: center;
+}
+
+@media (min-width: 40em){
+  .comm-img-position {
+    grid-template-columns: 1fr 1fr;
+    max-width: 50em;
+  }
+}
+
+.comm-image-label, .comm-style-tag {
+  width: 90%;
+  margin-left: 1.5em;
+}
+
+
+.comm-image-label {
+  margin-bottom: 1rem;
+}
+
+.picture-holder {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin: 0em 2em 0em 2em;
+}
+
+
+.comm-img-position .pfp {
+  margin: 1em; 
+  justify-self: center;
+  width: 100%;
+  height: 100%
+}
+
+.style-description {
+  width: 100%;
+}
+
 
