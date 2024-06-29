@@ -220,7 +220,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-
 .comm-img-position {
   display: grid; 
   grid-template-columns: 1fr;
@@ -267,4 +266,14 @@ h2 {
   width: 100%;
 }
 
+.character-header {
+  align-self: start;
+  margin-left: 9%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.narrow {
+  width: 90%;
+}
 
